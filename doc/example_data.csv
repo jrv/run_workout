@@ -1,0 +1,11 @@
+TABLE: workoutstep
+id|title|type|repeat_times|repeat_step|duration|duration_time_value|duration_dist_type|duration_dist_value|intensity|intensity_perc_value|intensity_cadence_value|intensity_heartrate_zone|notes|uid|created|changed
+1|WU10:00|warmup|||time|600|||||||rustig warmlopen||1768830779|1768831610
+2|5:00@Z3|run|||time|300|||heartrate_zone|||3|||1768831069|1768831069
+3|Repeat 3x|repeat|3|5+4|||||||||||1768831083|1768831184
+4|R200m|recover|||dist||m|200|||||||1768831108|1768831123
+5|600m@Z3|run|||dist||m|600|heartrate_zone|||3|||1768831161|1768831161
+6|CDLAP|cooldown|||press||||||||||1768831422|1768831422
+TABLE: runworkout
+id|title|description|description_format|workoutstep|created|changed
+1|Simpel workout|<p>Test workout with repeat</p>|basic_html|1+2+3+6|1768831228|1768831440
