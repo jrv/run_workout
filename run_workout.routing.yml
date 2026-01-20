@@ -1,0 +1,21 @@
+run_workout.csvexport:
+  path: '/admin/run_workout_csvexport'
+  defaults:
+    _controller: '\Drupal\run_workout\Controller\CSVExport::content'
+    _title: 'Run Workout CSV Export'
+  requirements:
+    _role: 'beheerder+administrator'
+run_workout.csvimport:
+  path: '/admin/run_workout_csvimport'
+  defaults:
+    _form: '\Drupal\run_workout\Form\CSVImport'
+    _title: 'Run Workouts Import'
+  requirements:
+    _role: 'beheerder+administrator'
+run_workout.page:
+  path: '/admin/run_workout'
+  defaults:
+    _controller: '\Drupal\run_workout\Controller\RunWorkoutController::content'
+    _title: 'Run Workouts'
+  requirements:
+    _role: 'beheerder+administrator'

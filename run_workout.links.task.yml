@@ -1,0 +1,37 @@
+entity.runworkout.canonical:
+  route_name: entity.runworkout.canonical
+  base_route: entity.runworkout.canonical
+  title: 'View'
+
+entity.runworkout.edit_form:
+  route_name: entity.runworkout.edit_form
+  base_route: entity.runworkout.canonical
+  title: 'Edit'
+
+entity.runworkout.delete_form:
+  route_name: entity.runworkout.delete_form
+  base_route: entity.runworkout.canonical
+  title: Delete
+  weight: 10
+
+entity.workoutstep.canonical:
+  route_name: entity.workoutstep.canonical
+  base_route: entity.workoutstep.canonical
+  title: 'View'
+
+entity.workoutstep.edit_form:
+  route_name: entity.workoutstep.edit_form
+  base_route: entity.workoutstep.canonical
+  title: 'Edit'
+
+entity.workoutstep.delete_form:
+  route_name: entity.workoutstep.delete_form
+  base_route: entity.workoutstep.canonical
+  title: Delete
+  weight: 10
+
+entity.workoutstep.delete_multiple_form:
+  route_name: entity.workoutstep.delete_multiple_form
+  base_route: entity.workoutstep.canonical
+  title: 'Delete all'
+  weight: 10

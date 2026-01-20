@@ -1,0 +1,6 @@
+services:
+  run_workout.test:
+    class: Drupal\run_workout\Commands\Test
+    arguments: ['@run_workout.runworkout']
+    tags:
+      - { name: drush.command }

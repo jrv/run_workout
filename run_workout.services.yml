@@ -1,0 +1,5 @@
+services:
+  run_workout.runworkout:
+    class: Drupal\run_workout\RunWorkout
+  run_workout.workoutstep:
+    class: Drupal\run_workout\WorkoutStep

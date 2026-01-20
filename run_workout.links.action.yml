@@ -1,0 +1,15 @@
+entity.runworkout.add_form:
+  route_name: entity.runworkout.add_form
+  title: 'Add  Run Workout'
+  appears_on:
+    - entity.runworkout.collection
+entity.workoutstep.add_form:
+  route_name: entity.workoutstep.add_form
+  title: 'Add Workout Step'
+  appears_on:
+    - entity.workoutstep.collection
+entity.workoutstep.delete_multiple_form:
+  route_name: entity.workoutstep.delete_multiple_form
+  title: 'Delete all Workout Steps'
+  appears_on:
+    - entity.workoutstep.collection

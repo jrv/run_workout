@@ -1,0 +1,12 @@
+entity.runworkout.collection:
+  title: 'Run Workout list'
+  route_name: entity.runworkout.collection
+  description: 'List Run Workout entities'
+  parent: system.admin_structure
+  weight: 100
+entity.workoutstep.collection:
+  title: 'Workout Step list'
+  route_name: entity.workoutstep.collection
+  description: 'List Workout Step entities'
+  parent: system.admin_structure
+  weight: 100
